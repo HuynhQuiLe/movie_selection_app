@@ -151,3 +151,17 @@ table td {
   color: #000;
   font-weight: 600;
 }
+
+.responsive {
+  display: none;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1299px) {
+  .booking {
+    display: none;
+  }
+  .responsive {
+    display: block !important;
+  }
+}
